@@ -44,7 +44,7 @@ variable "cluster_name" {
 }
 
 variable "server_type" {
-  default = "cx11"
+  default = "cx21"
 }
 
 variable "docker_version_server" {
@@ -53,6 +53,10 @@ variable "docker_version_server" {
 
 variable "docker_version_worker" {
   default = "19.03"
+}
+
+variable "rancher_version" {
+  default = "v2.4.2"
 }
 
 variable "ssh_keys" {
